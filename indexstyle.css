@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+div.nav-bar {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 40px);
+    height: 30px;
+    background: linear-gradient(to right, #dc00dc, #7532fa);
+    margin: 0;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+div.buttons-container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 20px;
+}
+
+p.nav-bar.buttons {
+    font-family: "Jost", sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+i.nav-bar.logo {
+    justify-self: left;
+}
+
+div.lead {
+    padding: 30px;
+    display: flex;
+    flex-shrink: 0;
+    gap: 30px
+}
+
+.lead img {
+    border-radius: 10px;
+    object-fit:cover;
+    width: 60%;
+    height: auto;
+}
+
+.lead p {
+    font-weight: 500;
+}
